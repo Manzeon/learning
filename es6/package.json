@@ -1,0 +1,10 @@
+{
+  "name": "es6",
+  "version": "0.0.1",
+  "devDependencies ": {
+    "babel-cli": "^6.26.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  }
+}
