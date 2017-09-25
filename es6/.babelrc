@@ -1,8 +1,9 @@
 {
   "presets": [
-    "latest",
-    "react",
-    "stage-2"
-  ],
-  "plugins": []
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions", "ie >= 8"]
+      }
+    }]
+  ]
 }
